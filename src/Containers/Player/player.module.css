@@ -1,0 +1,309 @@
+.Player{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 480px;
+    height: 708.24px;
+    left: 70%;
+    top: 93px;
+}
+
+.SongInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 184px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+}
+
+.Title{
+    position: static;
+    width: 184px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+
+    color: #FFFFFF;
+}
+
+.ColdPlay{
+    position: static;
+    width: 65px;
+    height: 24px;
+    left: 0px;
+    top: 44px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+    margin: 8px 0px;
+}
+
+.Center{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 480px;
+    height: 510px;
+    left: 0px;
+    top: 108px;
+    margin: 40px 0px;
+}
+
+.Center > img{
+    position: static;
+    width: 480px;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+
+    /* background: url(image.png); */
+    border-radius: 8px;
+
+    margin: 24px 0px;
+}
+
+.Controls{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 480px;
+    height: 50.24px;
+    left: 0px;
+    top: 658px;
+
+
+    /* Inside Auto Layout */
+    margin: 40px 0px;
+}
+
+.Group{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    right: 90px;
+    top: -30px;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 104px;
+}
+
+.Frame{
+    position: absolute;
+width: 24px;
+height: 24px;
+left: 12px;
+top: 12px;
+}
+
+.Frame > img{
+    position: absolute;
+left: 10%;
+right: 10%;
+top: 40%;
+bottom: 40%;
+
+/* background: #FFFFFF; */
+}
+
+.Ellipse{
+    position: absolute;
+width: 48px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.1);
+}
+
+.FrameTwo{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+/* position: relative; */
+width: 196px;
+height: 50.24px;
+left: 152px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 104px;
+}
+
+.FrameCenter{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: 172px;
+    bottom: 30px;
+
+    opacity: 0.6;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.FrameCenter2{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: 152px;
+    bottom: 50px;
+
+    opacity: 0.6;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.FrameCenter3{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: 152px;
+    bottom: 33px;
+
+    opacity: 0.6;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.FrameCenter > img{
+    position: absolute;
+left: 85%;
+right: -60%;
+top: 25%;
+bottom: 25%;
+
+/* background: #FFFFFF; */
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.FrameCenter2 > img{
+    position: absolute;
+left: 85%;
+right: -60%;
+top: 25%;
+bottom: 25%;
+
+/* background: #FFFFFF; */
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.FrameCenter3 > img{
+    position: absolute;
+left: 85%;
+right: -60%;
+top: 25%;
+bottom: 25%;
+
+/* background: #FFFFFF; */
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.FrameThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 1px;
+
+    position: relative;
+    width: 48px;
+    height: 48px;
+    right: 340px;
+    bottom: 38px;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 72px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 104px;
+}
+
+audio{
+    background-color: white;
+    position: relative;
+    top: 10%;
+    left: 110px;
+}
+
+.FrameThree > img{
+    position: static;
+left: 29.17%;
+right: 29.17%;
+top: 33.33%;
+bottom: 33.33%;
+
+/* background: #FFFFFF; */
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}

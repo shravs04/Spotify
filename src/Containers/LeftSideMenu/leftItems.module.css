@@ -1,0 +1,141 @@
+.VectorImg{
+    position: absolute;
+    left: 5%;
+    right: 0.71%;
+    top: 5.18%;
+    bottom: 0.29%;
+    width: 131.53px;
+    height: 39.41px;
+    /* background: #FFFFFF; */
+}
+
+.Categories{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    /* left: 135px;
+    top: 100px; */
+}
+
+.ForYou{
+    position: static;
+    width: 71px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.TopTracks{
+    position: static;
+    width: 100px;
+    height: 32px;
+    left: 0px;
+    top: 56px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.Favourites{
+    position: static;
+    width: 98px;
+    height: 32px;
+    left: 0px;
+    top: 112px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.RecentlyPlayed{
+    position: static;
+    width: 150px;
+    height: 32px;
+    left: 0px;
+    top: 168px;
+
+    font-family: Basier Circle;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.ProfileImg{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 50px;
+    top: 935px;
+
+    /* background: url(Abhi_adobespark.png), #151515; */
+    border-radius: 80px;
+}

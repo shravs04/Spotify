@@ -1,0 +1,123 @@
+.PlayListCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    position: static;
+    width: 190px;
+    height: 88px;
+    left: 0px;
+    top: 352px;
+    cursor: pointer;
+    /* margin-top: 20px; */
+
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+.LeftItem{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 122px;
+height: 48px;
+left: 20px;
+top: 20px;
+}
+
+.Thumbnai{
+    position: relative;
+width: 48px;
+height: 48px;
+left: 0px;
+top: 30px;
+/* margin-right: 10px; */
+
+
+/* background: url(image.png); */
+border-radius: 56px;
+}
+
+.Sparks{
+    position: relative;
+width: 200px;
+height: 24px;
+left: 0px;
+top: 10px;
+
+font-family: Basier Circle;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+color: #FFFFFF;
+}
+
+.ColdPlay{
+    position: relative;
+width: 157px;
+height: 24px;
+left: 0px;
+top: -20px;
+
+font-family: Basier Circle;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+
+.FrameTitles{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 58px;
+height: 48px;
+left: 64px;
+top: 0px;
+}
+
+.FrameTitles > p{
+    color: #FFFFFF;
+}
+
+.FrameTime{
+    position: relative;
+width: 36px;
+height: 24px;
+left: 222px;
+bottom: -20px;
+
+font-family: Basier Circle;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: right;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
